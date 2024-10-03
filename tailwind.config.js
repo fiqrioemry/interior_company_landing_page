@@ -2,7 +2,11 @@
 module.exports = {
   content: ["index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: ["Poppins", "sans-serif"], // correct way to define the custom font
+      },
+    },
   },
   plugins: [],
 };
