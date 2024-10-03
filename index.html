@@ -9,33 +9,52 @@
   <body>
     <div class="">
       <!-- navbar section start -->
-      <nav class="fixed top-0 left-0 right-0 px-24">
-        <div class="flex justify-between py-5">
-          <div class="logo">TheBear.Studio</div>
-          <div class="menu flex gap-8">
+      <nav class="fixed top-0 left-0 right-0 px-8 md:px-16 lg:px-24">
+        <div class="flex justify-between items-center py-5">
+          <div class="logo font-semibold">TheBear.Studio</div>
+          <div class="menu hidden md:flex gap-8">
             <button class=""><a href="#">Home</a></button>
             <button class=""><a href="#">About</a></button>
             <button class=""><a href="#">Services</a></button>
             <button class=""><a href="#">Contact Us</a></button>
           </div>
+          <div class="flex justify-end md:hidden">
+            <button class="h-4 w-4">
+              <img src="./assets//menu.png" alt="menubar" />
+            </button>
+          </div>
         </div>
       </nav>
       <!-- navbar section end -->
-      <div class="min-h-screen flex flex-col px-24">
-        <!-- Header -->
-        <div class="h-[65px]"></div>
-
-        <!-- Hero section -->
-        <div class="flex-grow">
-          <div class="flex-grow">
-            <div class="flex-grow left-side w-full md:w-[55%] bg-black">
-              <!-- Konten left-side -->
+      <!-- Hero section start-->
+      <div class="min-h-screen flex flex-wrap">
+        <!-- left side start -->
+        <div
+          class="mt-[65px] bg-[#1A1A1A] flex-grow lg:w-[60%] px-8 md:px-16 lg:px-24 py-24 text-white"
+        >
+          <div class="flex flex-col gap-5 w-[90%]">
+            <div class="uppercase font-bold text-[20px]">
+              contractor interior
             </div>
-            <div class="right-side w-full md:w-[45%] bg-gray-200">
-              <!-- Konten right-side -->
+            <div class="capitalize text-[46px]">
+              shaping space and livering solutions for everyone
+            </div>
+            <div>
+              We are the bear studio an interior design consulting service
+              company that will provide an initial overview of the room design,
+              estimated costs, up to the room renovation process.
             </div>
           </div>
         </div>
+        <!-- left side end -->
+        <!-- right side start -->
+        <div class="lg:w-[40%] relative">
+          <div class="absolute left-[-50px] h-[400px] w-[200px] bg-red-500">
+            a
+          </div>
+        </div>
+        <!-- right side end -->
+        <div></div>
       </div>
       <!-- hero section end -->
 
