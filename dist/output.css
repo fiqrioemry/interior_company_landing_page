@@ -589,8 +589,57 @@ video {
   margin-right: auto;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .grid {
   display: grid;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-\[3000px\] {
+  height: 3000px;
+}
+
+.h-\[648px\] {
+  height: 648px;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.max-w-\[1920px\] {
+  max-width: 1920px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-\[200px\] {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 body {
@@ -602,4 +651,78 @@ body {
 
 a {
   font-size: 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 162 116 / var(--tw-text-opacity));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: DM Serif Display;
+  --tw-text-opacity: 1;
+  color: rgb(41 47 54 / var(--tw-text-opacity));
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 968px) {
+  .h1 {
+    font-size: 84px;
+  }
+}
+
+.h2 {
+  font-size: 50px;
+  line-height: 1.25;
+}
+
+.h3 {
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity));
+}
+
+.btn-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 62 74 / var(--tw-bg-opacity));
+}
+
+.btn-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 162 116 / var(--tw-bg-opacity));
+}
+
+.btn-accent:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 140 93 / var(--tw-bg-opacity));
 }

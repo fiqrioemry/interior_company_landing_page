@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  @apply text-[20px] hover:text-accent trainsition-all duration-300;
+  @apply text-[20px] hover:text-accent transition-all duration-300;
 }
 
 h1,
