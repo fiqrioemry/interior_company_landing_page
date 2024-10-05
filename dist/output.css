@@ -1282,6 +1282,10 @@ h6 {
     justify-content: flex-start;
   }
 
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+
   .xl\:gap-\[74px\] {
     gap: 74px;
   }
