@@ -540,20 +540,83 @@
       </section>
 
       <!-- footer -->
-      <section class="footer mt-[80px] xl:mt-[150px] relative z-20">
+      <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
         <div class="container mx-auto px-0">
           <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
             <div
-              class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left bg-yellow-300"
+              class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left"
             >
-              a
+              <!-- logo -->
+              <a class="flex justify-center xl:justify-start mb-8" href="#">
+                <img src="./assets/logo.svg" alt="logo_image" />
+              </a>
+              <p class="mb-8 text-xl">
+                It is a long established fact that a reader will be distracted
+                lookings.
+              </p>
+              <!-- socials -->
+              <ul
+                class="text-primary w-full flex justify-center gap-[54px] xl:justify-start"
+              >
+                <li>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-twitter-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-instagram-fill"></i></a>
+                </li>
+              </ul>
             </div>
             <div
-              class="flex flex-1 flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end bg-blue-300"
-            ></div>
+              class="flex flex-1 flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end"
+            >
+              <!-- pages -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Pages</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Testimonials</a></li>
+                  <li><a href="">Our Work</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+
+              <!-- services -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Services</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="">Kitchen</a></li>
+                  <li><a href="">Living Area</a></li>
+                  <li><a href="">Bathroom</a></li>
+                  <li><a href="">Bedroom</a></li>
+                  <li><a href="">Bathroom</a></li>
+                </ul>
+              </div>
+
+              <!-- contact -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Contact</h3>
+                <div>
+                  <p>55 East Birchwood Ave. Brooklyn, New York</p>
+                  <p>contact@interno</p>
+                  <p>(123) 456-7890</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+        <p
+          class="footer_copyright text-center text-lg py-10 bg-white xl:border-t"
+        >
+          Copyright &copy; Interno 2024. All rights reserved
+        </p>
+      </footer>
     </main>
 
     <!-- scroll reveal js -->
