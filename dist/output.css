@@ -556,8 +556,8 @@ video {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
 @media (min-width: 640px) {
@@ -673,6 +673,10 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -693,16 +697,16 @@ video {
   height: 400px;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-\[520px\] {
   height: 520px;
 }
 
 .h-\[52px\] {
   height: 52px;
+}
+
+.h-\[648px\] {
+  height: 648px;
 }
 
 .h-\[70px\] {
@@ -719,6 +723,30 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[575px\] {
+  height: 575px;
+}
+
+.h-\[525px\] {
+  height: 525px;
+}
+
+.h-\[550px\] {
+  height: 550px;
 }
 
 .w-\[52px\] {
@@ -845,6 +873,10 @@ video {
   gap: 54px;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-x-\[104px\] {
   -moz-column-gap: 104px;
        column-gap: 104px;
@@ -889,11 +921,6 @@ video {
 
 .bg-accent\/15 {
   background-color: rgb(205 162 116 / 0.15);
-}
-
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -950,14 +977,14 @@ video {
   padding-right: 2rem;
 }
 
-.py-\[80px\] {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .pb-\[110px\] {
@@ -1009,13 +1036,13 @@ video {
   line-height: 1.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1237,8 +1264,36 @@ h6 {
     margin-top: 200px;
   }
 
+  .xl\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .xl\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
+  .xl\:h-\[840px\] {
+    height: 840px;
+  }
+
+  .xl\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .xl\:h-\[675px\] {
+    height: 675px;
+  }
+
   .xl\:h-\[600px\] {
     height: 600px;
+  }
+
+  .xl\:h-\[575px\] {
+    height: 575px;
+  }
+
+  .xl\:h-\[570px\] {
+    height: 570px;
   }
 
   .xl\:max-w-\[410px\] {
@@ -1285,8 +1340,8 @@ h6 {
     gap: 74px;
   }
 
-  .xl\:rounded-bl-\[190px\] {
-    border-bottom-left-radius: 190px;
+  .xl\:rounded-bl-\[290px\] {
+    border-bottom-left-radius: 290px;
   }
 
   .xl\:border-r {
@@ -1300,10 +1355,6 @@ h6 {
   .xl\:border-accent {
     --tw-border-opacity: 1;
     border-color: rgb(205 162 116 / var(--tw-border-opacity));
-  }
-
-  .xl\:bg-grid {
-    background-image: url(./assets/grid.png);
   }
 
   .xl\:bg-center {

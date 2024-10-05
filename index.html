@@ -22,7 +22,7 @@
   </head>
   <body class="bg-gray-100">
     <!-- header -->
-    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+    <header class="sticky top-0 h-[70px] shadow-xl z-30 bg-white">
       <div class="container mx-auto flex justify-between h-full items-center">
         <!-- logo -->
         <a href="#">
@@ -38,12 +38,12 @@
             class="fixed w-full h-0 p-0 bg-white overflow-hidden bordert-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
             id="nav_menu"
           >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Our Work</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#our_work">Our Work</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -51,16 +51,10 @@
 
     <!-- page wrapper -->
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
-      <!-- grid img -->
-      <div
-        style="background-image: url(./assets/grid.png)"
-        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 right-0 left-0 z-90"
-      ></div>
-
       <!-- hero -->
       <section
         style="background-image: url(./assets/hero/bg.jpg)"
-        class="hero h-[500px] xl:h-[600px] bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[190px] relative z-20"
+        class="hero h-[550px] xl:h-[570px] bg-center lg:bg-cover bg-no-repeat bg-fixed relative z-20"
       >
         <div
           class="container mx-auto h-full flex items-center justify-center xl:justify-start"
@@ -83,7 +77,7 @@
       </section>
 
       <!-- steps -->
-      <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+      <section class="steps container mt-[80px] xl:mt-[200px] relative z-20">
         <div class="container mx-auto">
           <!-- grid item -->
           <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
@@ -139,7 +133,7 @@
       </section>
 
       <!-- about -->
-      <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+      <section id="about" class="about mt-[80px] xl:mt-[200px] relative z-20">
         <div class="container mx-auto xl:px-0">
           <div
             class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]"
@@ -184,7 +178,10 @@
       </section>
 
       <!-- testimonials -->
-      <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+      <section
+        id="testimonials"
+        class="testimonial mt-[80px] xl:mt-[200px] relative z-20"
+      >
         <div
           class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6"
         >
@@ -316,7 +313,7 @@
       </section>
 
       <!-- work -->
-      <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+      <section id="works" class="work mt-[80px] xl:mt-[150px] relative z-20">
         <div class="container mx-auto xl:px-0">
           <!-- text -->
           <div class="text-center mb-24">
@@ -440,7 +437,7 @@
       </section>
 
       <!-- news -->
-      <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+      <section id="news" class="news mt-[80px] xl:mt-[150px] relative z-20">
         <div class="container mx-auto px-8">
           <!-- text  -->
           <div class="max-w-[810px] mx-auto text-center mb-[52px]">
@@ -523,7 +520,10 @@
       </section>
 
       <!-- contact -->
-      <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+      <section
+        id="contact"
+        class="contact mt-[80px] xl:mt-[150px] relative z-20"
+      >
         <div
           class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]"
         >
