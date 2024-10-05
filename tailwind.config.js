@@ -10,7 +10,7 @@ module.exports = {
     screens: {
       sm: "640px",
       md: "768px",
-      lg: "968px",
+      lg: "960px",
       xl: "1200px",
     },
     fontFamily: {
@@ -18,8 +18,8 @@ module.exports = {
       secondary: "Jost",
     },
     backgroundImage: {
-      hero: "url(/assets/hero/bg.jpg)",
-      grid: "url(/assets/grid.png)",
+      hero: "url(./assets/hero/bg.jpg)",
+      grid: "url(./assets/grid.png)",
     },
     extend: {
       colors: {
