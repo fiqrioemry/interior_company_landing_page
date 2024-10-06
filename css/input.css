@@ -53,3 +53,7 @@ h6 {
   .swiper-pagination-bullet {
   @apply bg-primary;
 }
+
+html {
+  scroll-behavior: smooth;
+}

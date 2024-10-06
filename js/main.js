@@ -1,9 +1,29 @@
 const navTriggerBtn = document.querySelector("#nav_trigger_btn");
 const navMenu = document.querySelector("#nav_menu");
+const navLinks = document.querySelectorAll("#nav_menu a"); // Select all nav links
 
-// event listener
+// Toggle nav menu when clicking the nav button
 navTriggerBtn.addEventListener("click", () => {
   navMenu.classList.toggle("nav-is-open");
+  if (navMenu.classList.contains("nav-is-open")) {
+    navMenu.style.height = "350px"; // Expand the menu when opened
+  } else {
+    navMenu.style.height = "0px"; // Collapse the menu when closed
+  }
+});
+
+// Close the menu and smooth scroll to section on link click
+navLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    const targetSection = document.querySelector(link.getAttribute("href"));
+
+    // Close the mobile menu
+    navMenu.classList.remove("nav-is-open");
+
+    // Smooth scroll to the section
+    targetSection.scrollIntoView({ behavior: "smooth" });
+  });
 });
 
 // swiper
