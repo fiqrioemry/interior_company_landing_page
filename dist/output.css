@@ -1270,6 +1270,18 @@ html {
     height: 100%;
   }
 
+  .lg\:max-h-\[50px\] {
+    max-height: 50px;
+  }
+
+  .lg\:max-h-\[75px\] {
+    max-height: 75px;
+  }
+
+  .lg\:max-h-\[85px\] {
+    max-height: 85px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
