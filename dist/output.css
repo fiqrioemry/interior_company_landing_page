@@ -556,8 +556,8 @@ video {
 
 .container {
   width: 100%;
-  padding-right: 45px;
-  padding-left: 45px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 @media (min-width: 640px) {
@@ -606,10 +606,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.top-\[90px\] {
-  top: 90px;
 }
 
 .top-\[70px\] {
@@ -673,6 +669,26 @@ video {
   margin-top: 80px;
 }
 
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[240px\] {
+  margin-bottom: 240px;
+}
+
+.mb-\[500px\] {
+  margin-bottom: 500px;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-\[500px\] {
+  margin-top: 500px;
+}
+
 .flex {
   display: flex;
 }
@@ -681,8 +697,16 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-0 {
   height: 0px;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-\[340px\] {
@@ -715,10 +739,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[60px\] {
-  height: 60px;
 }
 
 .w-\[52px\] {
@@ -878,10 +898,6 @@ video {
   border-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
 .border-primary\/20 {
   border-color: rgb(41 47 54 / 0.2);
 }
@@ -926,16 +942,16 @@ video {
   padding: 0px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-9 {
   padding: 2.25rem;
 }
 
 .p-\[20px\] {
   padding: 20px;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-0 {
@@ -1107,6 +1123,17 @@ h6 {
   }
 }
 
+.h1_alt {
+  font-size: 54px;
+  line-height: 1;
+}
+
+@media (min-width: 960px) {
+  .h1_alt {
+    font-size: 84px;
+  }
+}
+
 .h2 {
   font-size: 50px;
   line-height: 1.25;
@@ -1167,6 +1194,38 @@ h6 {
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (min-width: 960px) {
+  .lg\:container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  @media (min-width: 640px) {
+    .lg\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .lg\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .lg\:container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .lg\:container {
+      max-width: 1200px;
+    }
+  }
 }
 
 .hover\:bg-accent-secondary:hover {
@@ -1260,6 +1319,10 @@ html {
 
   .xl\:mt-\[200px\] {
     margin-top: 200px;
+  }
+
+  .xl\:flex {
+    display: flex;
   }
 
   .xl\:h-\[570px\] {

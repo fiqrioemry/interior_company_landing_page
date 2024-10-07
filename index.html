@@ -26,12 +26,15 @@
       <div class="container mx-auto flex justify-between h-full items-center">
         <!-- logo -->
         <a href="#">
-          <img src="./assets/logo.svg" alt="logo" />
+          <img class="h-8 lg:h-full" src="./assets/logo.svg" alt="logo" />
         </a>
         <!-- nav mobile version -->
 
         <nav>
-          <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+          <div
+            class="cursor-pointer lg:hidden h-8 lg:h-full"
+            id="nav_trigger_btn"
+          >
             <i class="ri-menu-line text-4xl text-primary"></i>
           </div>
           <ul
@@ -72,7 +75,7 @@
       <!-- hero -->
       <section
         style="background-image: url(./assets/hero/bg.jpg)"
-        id="#home"
+        id="home"
         class="hero h-[550px] xl:h-[570px] bg-center lg:bg-cover bg-no-repeat bg-fixed relative z-20"
       >
         <div
@@ -82,7 +85,7 @@
           <div
             class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start"
           >
-            <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+            <h1 class="h1_alt mb-8">Let Your Home Be Unique</h1>
             <p class="mb-8">
               There are many variations of the passages of Lorem ipsum from
               available, variations of the passages.
@@ -188,7 +191,9 @@
             </div>
 
             <!-- image -->
-            <div class="about__img order-1 xl:order-none max-w-[50%]">
+            <div
+              class="about__img order-1 xl:flex hidden xl:order-none max-w-[50%]"
+            >
               <img src="./assets/about/foto.jpg" alt="about_image" />
             </div>
           </div>
@@ -332,7 +337,7 @@
 
       <!-- work -->
       <section id="our_work" class="work mt-[80px] xl:mt-[150px] relative z-20">
-        <div class="container mx-auto xl:px-12">
+        <div class="container mx-auto">
           <!-- text -->
           <div class="text-center mb-24">
             <h2 class="work__title h2 mb-4">Follow Our Projects</h2>
@@ -368,7 +373,7 @@
               <img class="mb-6" src="assets/work/02.png" alt="work__image1" />
               <div class="flex justify-between items-center w-full">
                 <div>
-                  <h3 class="h3">Modern Kitchen</h3>
+                  <h3 class="h3">Classic Room</h3>
                   <p>Decor/Architecture</p>
                 </div>
                 <button
@@ -386,7 +391,7 @@
               <img class="mb-6" src="assets/work/03.png" alt="work__image1" />
               <div class="flex justify-between items-center w-full">
                 <div>
-                  <h3 class="h3">Modern Kitchen</h3>
+                  <h3 class="h3">Learning Space</h3>
                   <p>Decor/Architecture</p>
                 </div>
                 <button
@@ -404,7 +409,7 @@
               <img class="mb-6" src="assets/work/04.png" alt="work__image1" />
               <div class="flex justify-between items-center w-full">
                 <div>
-                  <h3 class="h3">Modern Kitchen</h3>
+                  <h3 class="h3">Modern Living Room</h3>
                   <p>Decor/Architecture</p>
                 </div>
                 <button

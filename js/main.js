@@ -20,6 +20,7 @@ navLinks.forEach((link) => {
 
     // Close the mobile menu
     navMenu.classList.remove("nav-is-open");
+    navMenu.style.height = "0px";
 
     // Smooth scroll to the section
     targetSection.scrollIntoView({ behavior: "smooth" });

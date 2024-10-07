@@ -22,6 +22,9 @@ h6 {
 .h1 {
   @apply text-[64px] lg:text-[84px] leading-none;
 }
+.h1_alt {
+  @apply text-[54px] lg:text-[84px] leading-none;
+}
 
 .h2 {
   @apply text-[50px] leading-tight;
