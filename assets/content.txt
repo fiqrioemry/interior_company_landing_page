@@ -1,0 +1,125 @@
+------------------
+LINKS
+------------------
+Home
+About
+Testimonials
+Our Work
+News
+Contact
+
+------------------
+HERO
+------------------
+Title: Let Your Home Be Unique
+Subtitle: There are many variations of the passages of lorem Ipsum from available,variations of the passages.
+Btn text: Get free estimation
+
+------------------
+STEPS
+------------------
+Title 1: Project Planning
+Title 2: Gaining Materials
+Title 3: Project Execution
+
+Subtitle x3: There are many variations of the passages of lorem Ipsum from available, majority.
+Btn text: Read more
+
+------------------
+ABOUT
+------------------
+Title: We Create The Art Of Stylish Living Stylishly
+Subtitle: It is a long established fact that a reader will be distracted by the of readable content of a page 
+when lookings at its layouts the points of using 
+that it has a more-or-less normal.
+
+------------------
+TESTIMONIALS
+------------------
+Title: What clients say
+
+Nattasha Mith
+Greenville, USA
+Lorem Ipsum is simply dummy 
+text of the typesetting industry. 
+Ipsum has been.
+
+Jessica White
+Oak Ridge, USA
+Lorem Ipsum is simply dummy 
+text of the typesetting industry. 
+Ipsum has been.
+
+Mike Davis
+Berlin, Germany
+Lorem Ipsum is simply dummy 
+text of the typesetting industry. 
+Ipsum has been.
+
+Olivia Wilson
+Blue Ridge, France
+Lorem Ipsum is simply dummy 
+text of the typesetting industry. 
+Ipsum has been.
+
+------------------
+WORK
+------------------
+Title: Follow Our Projects
+Subtitle: It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.
+
+------------------
+NEWS
+------------------
+Title: Articles & News
+Subtitle: It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.
+
+Item 1:
+Title: Let’s Get Solution For Building Construction Work
+Date: 22 June,2024
+
+Item 2:
+Title: Low Cost Latest Invented Interior Designing
+Ideas.
+Date: 24 June,2024
+
+Item 3:
+Title: Best For Any Office & Business Interior 
+Solution
+Date: 28 June,2024
+
+------------------
+CONTACT
+------------------
+Title: Do you want to join Interno?
+Subtitle: It is a long established fact will be distracted.
+
+------------------
+FOOTER
+------------------
+Logo
+Subtitle: It is a long established fact that a reader will be distracted lookings.
+Socials
+
+Pages
+About Us
+Testimonials
+Our Work
+News
+Contact
+
+Services
+Kitchen
+Living Area
+Bathroom
+Bedroom
+
+Contact
+55 East Birchwood Ave. Brooklyn, New York 11201
+contact@interno.com
+(123) 456 - 7890
+
+------------------
+COPYRIGHT
+------------------
+Copyright © Interno 2024. All rights reserved.

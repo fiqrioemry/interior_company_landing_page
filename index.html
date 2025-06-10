@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Company Landing Page</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- header -->
+    <header class="sticky top-0 h-[70px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <!-- logo -->
+        <a href="#">
+          <img
+            class="h-8 lg:max-h-[85px]"
+            src="./assets/logo1.png"
+            alt="logo"
+          />
+        </a>
+        <!-- nav mobile version -->
+
+        <nav>
+          <div
+            class="cursor-pointer lg:hidden h-8 lg:h-full"
+            id="nav_trigger_btn"
+          >
+            <i class="ri-menu-line text-4xl text-primary"></i>
+          </div>
+          <ul
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden top-[70px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+            id="nav_menu"
+          >
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#about">About</a>
+            </li>
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#our_work"
+                >Our Work</a
+              >
+            </li>
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#news">News</a>
+            </li>
+            <li>
+              <a class="text-lg p-4 hover:text-primary" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- page wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+      <!-- hero -->
+      <section
+        style="background-image: url(./assets/hero/bg.jpg)"
+        id="home"
+        class="hero h-[550px] xl:h-[570px] bg-center lg:bg-cover bg-no-repeat bg-fixed relative z-20"
+      >
+        <div
+          class="container mx-auto h-full flex items-center justify-center xl:justify-start"
+        >
+          <!-- text -->
+          <div
+            class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start"
+          >
+            <h1 class="h1_alt mb-8">Let Your Home Be Unique</h1>
+            <p class="mb-8">
+              There are many variations of the passages of Lorem ipsum from
+              available, variations of the passages.
+            </p>
+            <button class="btn btn-primary mx-auto xl:mx-0">
+              Get Free Estimation
+              <i class="ri-arrow-right-line text-accent"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- steps -->
+      <section class="steps mt-[80px] xl:mt-[175px] relative z-20">
+        <div class="container mx-auto">
+          <!-- grid item -->
+          <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+            <!-- steps 1-->
+            <div class="steps__step__1 text-center">
+              <div class="mb-4">
+                <i class="ri-compasses-2-line text-5xl text-accent"></i>
+                <h3 class="h3 mb-5">Project Planning</h3>
+                <p class="mb-5 max-w-md mx-auto">
+                  There are many variations of the passages of lorem ipsum from
+                  available, majority
+                </p>
+                <a href="#" class="font-medium flex justify-center gap-2"
+                  >Read More
+                  <i class="ri-arrow-right-line text-accent"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- steps 2 -->
+            <div class="steps__step__2 text-center">
+              <div class="mb-4">
+                <i class="ri-magic-line text-5xl text-accent"></i>
+                <h3 class="h3 mb-5">Gaining Materials</h3>
+                <p class="mb-5 max-w-md mx-auto">
+                  There are many variations of the passages of lorem ipsum from
+                  available, majority
+                </p>
+                <a href="#" class="font-medium flex justify-center gap-2"
+                  >Read More
+                  <i class="ri-arrow-right-line text-accent"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- steps 3 -->
+            <div class="steps__step__3 text-center">
+              <div class="mb-4">
+                <i class="ri-tools-line text-5xl text-accent"></i>
+                <h3 class="h3 mb-5">Project Executions</h3>
+                <p class="mb-5 max-w-md mx-auto">
+                  There are many variations of the passages of lorem ipsum from
+                  available, majority
+                </p>
+                <a href="#" class="font-medium flex justify-center gap-2"
+                  >Read More
+                  <i class="ri-arrow-right-line text-accent"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about" class="about mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto">
+          <div
+            class="flex py-28 flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[2px]"
+          >
+            <!-- text -->
+            <div
+              class="about__text flex-1 order-2 xl:order-none max-w-xl flex flex-col items-center xl:items-start gap-8"
+            >
+              <h2 class="h2">We Create The Art of Stylish Living Stylishy</h2>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the of readable content of a page when lookings at its
+                layouts the points of using that it has a more-or-less normal.
+              </p>
+              <!-- phone -->
+              <div
+                class="flex items-center justify-center w-full xl:justify-start gap-4"
+              >
+                <div
+                  class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center"
+                >
+                  <i class="ri-phone-fill text-accent text-4xl"></i>
+                </div>
+                <div class="text-left">
+                  <div class="text-2xl font-bold">0821 6094 5033</div>
+                  <div>Call Us Anytime</div>
+                </div>
+                <!-- btn -->
+                <button class="btn btn-primary">
+                  <i class="ri-arrow-right-line text-accent"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- image -->
+            <div
+              class="about__img order-1 xl:flex hidden xl:order-none max-w-[50%]"
+            >
+              <img src="./assets/about/foto.jpg" alt="about_image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section
+        id="testimonials"
+        class="testimonial mt-[80px] xl:mt-[200px] relative z-20"
+      >
+        <div
+          class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6"
+        >
+          <div class="flex flex-col items-center pt-[80px] pb-[110px]">
+            <h2 class="testimonial__title h2 mb-9 text-center">
+              What Clients Say
+            </h2>
+            <!-- slider -->
+            <div class="w-full">
+              <div class="testimonial__slider swiper h-[400px]">
+                <div class="swiper-wrapper">
+                  <!-- slides 1-->
+                  <div class="swiper-slide">
+                    <!-- item -->
+                    <div
+                      class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto"
+                    >
+                      <div class="flex gap-4 mb-6">
+                        <img
+                          src="./assets/testimonial/01.png"
+                          alt="testimonial_image"
+                        />
+                        <div>
+                          <h3 class="h3">Rita Miller</h3>
+                          <div>Nashville, USA</div>
+                        </div>
+                      </div>
+                      <p>
+                        This interior design team, Their creativity and
+                        attention to detail made every room feel special and
+                        cohesive.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- slides 2 -->
+                  <div class="swiper-slide">
+                    <!-- item -->
+                    <div
+                      class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto"
+                    >
+                      <div class="flex gap-4 mb-6">
+                        <img
+                          src="./assets/testimonial/02.png"
+                          alt="testimonial_image"
+                        />
+                        <div>
+                          <h3 class="h3">Scarlet Joselin</h3>
+                          <div>London, England</div>
+                        </div>
+                      </div>
+                      <p>
+                        This interior design team, Their creativity and
+                        attention to detail made every room feel special and
+                        cohesive.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- slides 3 -->
+                  <div class="swiper-slide">
+                    <!-- item -->
+                    <div
+                      class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto"
+                    >
+                      <div class="flex gap-4 mb-6">
+                        <img
+                          src="./assets/testimonial/03.png"
+                          alt="testimonial_image"
+                        />
+                        <div>
+                          <h3 class="h3">David Willies</h3>
+                          <div>Berlin, Germany</div>
+                        </div>
+                      </div>
+                      <p>
+                        This interior design team, Their creativity and
+                        attention to detail made every room feel special and
+                        cohesive.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- slides 4 -->
+                  <div class="swiper-slide">
+                    <!-- item -->
+                    <div
+                      class="testimonial__item w-full max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto"
+                    >
+                      <div class="flex gap-4 mb-6">
+                        <img
+                          src="./assets/testimonial/04.png"
+                          alt="testimonial_image"
+                        />
+                        <div>
+                          <h3 class="h3">Oliver Jennet</h3>
+                          <div>Blue Ridge, France</div>
+                        </div>
+                      </div>
+                      <p>
+                        This interior design team, Their creativity and
+                        attention to detail made every room feel special and
+                        cohesive.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- swiper pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- brands -->
+      <section class="brands mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto">
+          <div
+            class="flex flex-col xl:flex-row justify-between items-center gap-12"
+          >
+            <img class="brands__img" src="assets/brands/01.svg" alt="" />
+            <img class="brands__img" src="assets/brands/02.svg" alt="" />
+            <img class="brands__img" src="assets/brands/03.svg" alt="" />
+            <img class="brands__img" src="assets/brands/04.svg" alt="" />
+            <img class="brands__img" src="assets/brands/05.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- work -->
+      <section id="our_work" class="work mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto">
+          <!-- text -->
+          <div class="text-center mb-24">
+            <h2 class="work__title h2 mb-4">Follow Our Projects</h2>
+            <p class="work__subtitle max-w-3xl mx-auto">
+              It is a long established fact that a reader will be distracted by
+              the of readable content of page lookings at its layouts points.
+            </p>
+          </div>
+          <!-- grid -->
+          <div
+            class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]"
+          >
+            <!-- item 1 -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/01.png" alt="work__image1" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Kitchen</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/02.png" alt="work__image1" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Classic Room</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/03.png" alt="work__image1" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Learning Space</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/04.png" alt="work__image1" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Living Room</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- stats -->
+      <section
+        class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]"
+      >
+        <div class="container mx-auto">
+          <!-- grid -->
+          <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+            <!-- grid item 1 -->
+            <div class="stats__item text-center xl:border-r xl:border-accent">
+              <h3 class="h1 font-primary text-accent">12</h3>
+              <p>Years Of Experience</p>
+            </div>
+
+            <!-- grid item 2-->
+            <div class="stats__item text-center xl:border-r xl:border-accent">
+              <h3 class="h1 font-primary text-accent">85</h3>
+              <p>Projects Completed</p>
+            </div>
+
+            <!-- grid item 3-->
+            <div class="stats__item text-center xl:border-r xl:border-accent">
+              <h3 class="h1 font-primary text-accent">15</h3>
+              <p>Active Projects</p>
+            </div>
+
+            <!-- grid item 4-->
+            <div class="stats__item text-center xl:border-r xl:border-accent">
+              <h3 class="h1 font-primary text-accent">95</h3>
+              <p>Happy Customers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section id="news" class="news mt-[80px] xl:mt-[10px] relative z-20">
+        <div class="container mx-auto px-8">
+          <!-- text  -->
+          <div class="max-w-[810px] mx-auto text-center mb-[52px]">
+            <h2 class="news__title h2 mb-3">Articles & News</h2>
+            <p class="news__subtitle">
+              It is a long established fact that a reader will be distracted by
+              the of readable content of a page when lookings at its layouts the
+              points of using.
+            </p>
+          </div>
+
+          <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
+            <!-- grid item 1-->
+            <div
+              class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0"
+            >
+              <img class="mb-5" src="./assets/news/01.png" alt="news_image_1" />
+              <div class="flex flex-col gap-[30px]">
+                <h3 class="h3">
+                  Let’s Get Solution For Building Construction Work
+                </h3>
+                <div class="flex items-center justify-between">
+                  <p class="text-base">22 June, 2024</p>
+                  <button
+                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"
+                  >
+                    <i
+                      class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- grid item 2 -->
+            <div
+              class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0"
+            >
+              <img class="mb-5" src="./assets/news/02.png" alt="news_image_1" />
+              <div class="flex flex-col gap-[30px]">
+                <h3 class="h3">
+                  Low Cost Latest Invented Interior Designing Ideas.
+                </h3>
+                <div class="flex items-center justify-between">
+                  <p class="text-base">14 March, 2024</p>
+                  <button
+                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"
+                  >
+                    <i
+                      class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- grid item 3-->
+            <div
+              class="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0"
+            >
+              <img class="mb-5" src="./assets/news/03.png" alt="news_image_1" />
+              <div class="flex flex-col gap-[30px]">
+                <h3 class="h3">
+                  Best For Any Office & Business Interior Solution
+                </h3>
+                <div class="flex items-center justify-between">
+                  <p class="text-base">05 April, 2024</p>
+                  <button
+                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all"
+                  >
+                    <i
+                      class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section
+        id="contact"
+        class="contact mt-[80px] xl:mt-[150px] relative z-20"
+      >
+        <div
+          class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]"
+        >
+          <div class="contact__text max-w-[640px] mx-auto text-center">
+            <h2 class="h2 text-white mb-4">Do you want to joinI Luxespace?</h2>
+            <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">
+              It is a long established fact will be distracted.
+            </p>
+            <button class="btn btn-accent mx-auto">
+              Connect With Us <i class="ri-arrow-right-line text-primary"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto px-0">
+          <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+            <div
+              class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left"
+            >
+              <!-- logo -->
+              <a class="flex justify-center xl:justify-start mb-8" href="#">
+                <img src="./assets/logo.svg" alt="logo_image" />
+              </a>
+              <p class="mb-8 text-xl">
+                It is a long established fact that a reader will be distracted
+                lookings.
+              </p>
+              <!-- socials -->
+              <ul
+                class="text-primary w-full flex justify-center gap-[54px] xl:justify-start"
+              >
+                <li>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-twitter-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-instagram-fill"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex flex-1 flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end"
+            >
+              <!-- pages -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Pages</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Testimonials</a></li>
+                  <li><a href="">Our Work</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+
+              <!-- services -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Services</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#">Kitchen</a></li>
+                  <li><a href="#">Living Area</a></li>
+                  <li><a href="#">Bathroom</a></li>
+                  <li><a href="#">Bedroom</a></li>
+                </ul>
+              </div>
+
+              <!-- contact -->
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Contact</h3>
+                <div>
+                  <p>55 East Birchwood Ave. Brooklyn, New York</p>
+                  <p>contact@luxespace</p>
+                  <p>(123) 456-7890</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p
+          class="footer_copyright text-center text-lg py-10 bg-white xl:border-t"
+        >
+          Copyright &copy; luxespace 2024. All rights reserved
+        </p>
+      </footer>
+    </main>
+
+    <!-- scroll reveal js -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <!-- swiper -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
